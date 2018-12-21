@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/ivWelcomeTaxiIcon"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/taxi_icon"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAB BOOK SERVICE"
+        android:layout_below="@+id/ivWelcomeTaxiIcon"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/earn_icon"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EARN"
+            android:textSize="@dimen/dimen_28sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dimen_32"
+            android:text="Get well paid to help out strangers get to "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="where they need to go."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Withdraw your earning every week / month."/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvProceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok got it !! Proceed to next >> "
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

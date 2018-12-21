@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_red"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivWelcomeTaxiIcon"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/taxi_icon"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAB BOOK SERVICE"
+        android:layout_below="@+id/ivWelcomeTaxiIcon"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/llWelcome"
+        >
+        <ImageView
+            android:id="@+id/ivWelcome"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/welcome_icon"
+            />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ivWelcome"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_28sp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_below="@+id/tvWelcome"
+            android:textStyle="bold|italic"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_marginLeft="@dimen/dimen_32"
+            android:layout_marginRight="@dimen/dimen_32"
+            android:text="@string/introducing_urge_services_to_transport_you_where_you_need_to_go_a_lot_can_happen_on_our_ride"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvWelcomeSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKIP"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">>>"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>

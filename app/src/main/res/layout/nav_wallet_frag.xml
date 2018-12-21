@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="@dimen/dimen_80"
+        android:layout_height="@dimen/dimen_80"
+        android:src="@drawable/wallet"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Wallet Amount is"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:textSize="16sp"
+        android:textColor="@color/theme_red"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S$ 31.22"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/theme_red"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Money / Withdraw Money"
+        android:layout_marginTop="@dimen/dimen_14dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/dimen_20"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_2dp"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:layout_marginLeft="@dimen/dimen_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S$"
+            android:textColor="@color/theme_red"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etWalletAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_8dp"
+            android:hint="Enter the amount"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn30"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_50"
+            android:background="@color/theme_red"
+            android:text="@string/s_30"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn50"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_50"
+            android:background="@color/theme_red"
+            android:text="@string/s_50"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn80"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_50"
+            android:background="@color/theme_red"
+            android:text="@string/s_80"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/dimen_10"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn100"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_50"
+            android:background="@color/theme_red"
+            android:text="@string/s_100"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginRight="@dimen/dimen_20"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_50"
+            android:hint="Enter the amount"
+            android:layout_weight="3"
+            android:background="@drawable/edit_text_background"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_50"
+            android:background="@color/theme_red"
+            android:textColor="@color/white"
+            android:text="Apply"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_45"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="@dimen/dimen_24"
+        android:text="@string/withdraw_money"
+        android:textSize="12sp"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_45"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:text="@string/add_money"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:textSize="12sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

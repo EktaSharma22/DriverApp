@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">DriverUrge</string>
+    <string name="welcome">WELCOME</string>
+    <string name="introducing_urge_services_to_transport_you_where_you_need_to_go_a_lot_can_happen_on_our_ride">Introducing URGE Services to transport you where you need to go. A Lot can happen on our ride !!</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="take_a_ride_whenever_or_wherever_you_plan_and_schedule_for_us_to_pick_you_up">Take a ride whenever or wherever you, Plan </string>
+    <string name="schedule_your">and Schedule for us to pick you up.</string>
+    <string name="we_have_the_most_friendly_drivers_who_will_go_an_extra_mile_for_you">We have the most friendly drivers who will go an extra mile for you !!! </string>
+    <string name="drivers">DRIVERS</string>
+    <string name="ok_got_it_proceed_to_next"><![CDATA[Ok Got It, Proceed to next >>]]></string>
+    <string name="or_use_social_account">-------------- Or use social account --------------</string>
+    <string name="go_an_extra_mile_for_you">go an extra mile for you !!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_user_sign_up_now">New User ? Sign Up now !!</string>
+    <string name="or_register_with">-------------- Or register with ---------------</string>
+    <string name="or_login_with">-------------- Or login with ---------------</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="register">Register</string>
+    <string name="cab_book_service">CAB BOOK SERVICE</string>
+
+    <string name="facebook_app_id">528593337563558</string>
+    <string name="fb_login_protocol_scheme">fb528593337563558</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="waiting_for_response">Waiting for Response !!!</string>
+    <string name="title_activity_nav_drawer">Cab Book Service</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_23rd_feb_2018_at_8_30_am">23rd Feb, 2018 at 8:30 AM</string>
+    <string name="booking_id_1234567890">Booking Id : 1234567890</string>
+    <string name="_25">$ 25</string>
+    <string name="sedan">Sedan</string>
+    <string name="your_wallet_amount_is">Your Wallet Amount is</string>
+    <string name="s_30">S$ 30</string>
+    <string name="s_50">S$ 50</string>
+    <string name="s_80">S$ 80</string>
+    <string name="s_100">S$ 100</string>
+    <string name="add_money">Add money</string>
+    <string name="withdraw_money">Withdraw Money</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "770889748826",
+    "firebase_url": "https://driverurge.firebaseio.com",
+    "project_id": "driverurge",
+    "storage_bucket": "driverurge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770889748826:android:fa7ff8bec6172390",
+        "android_client_info": {
+          "package_name": "com.example.ganesha.driverurge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770889748826-ojm516ed4qu0tjrs4vvhbrjuaprh0qp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ganesha.driverurge",
+            "certificate_hash": "431a72e6bc190562d8985713f04ac2d855ff425d"
+          }
+        },
+        {
+          "client_id": "770889748826-ujoj80fklk3a47m2pfcp9l60tuafberf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKseLOP8d2-_mTWQ3a5oXfeT_4XRRTeeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770889748826-ujoj80fklk3a47m2pfcp9l60tuafberf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

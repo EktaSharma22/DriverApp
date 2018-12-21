@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationSignIn.ResponseScreenActivity"
+    android:background="@color/white">
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     >
+
+     <ImageView
+         android:id="@+id/ivResponse"
+         android:layout_width="@dimen/dimn_200"
+         android:layout_height="@dimen/dimn_200"
+         android:src="@drawable/response"
+         />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/waiting_for_response"
+         android:textSize="20sp"
+         android:textStyle="bold"
+         android:layout_marginTop="@dimen/dimen_20"
+         android:layout_below="@+id/ivResponse"
+         android:textColor="@color/theme_red"/>
+
+ </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationSignIn.SignInActivity">
+
+    <include layout="@layout/appbar"
+        android:id="@+id/loginAppBar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_below="@+id/loginAppBar"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/theme_red"
+            />
+
+        <LinearLayout
+            android:id="@+id/llPhoneEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvLogin"
+            android:layout_marginLeft="@dimen/dimen_32"
+            android:layout_marginRight="@dimen/dimen_32"
+            android:layout_marginTop="@dimen/dimen_32"
+            android:layout_gravity="center">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phone_email_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etPhoneEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number or Email"
+                    android:textSize="14sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llLoginPasswrd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/llPhoneEmail"
+            android:layout_marginLeft="@dimen/dimen_32"
+            android:layout_marginRight="@dimen/dimen_32"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_gravity="center">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/login_passwrd_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etLoginPasswrd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textSize="14sp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:layout_below="@+id/llLoginPasswrd"
+            android:textColor="@color/white"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"/>
+
+
+
+        <TextView
+            android:id="@+id/tvLoginForgetPasswrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/theme_red"/>
+
+        <TextView
+            android:id="@+id/tvLoginSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or_login_with"
+            android:layout_below="@+id/tvLoginForgetPasswrd"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLoginSocial"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/ivFbLog"
+                android:layout_width="@dimen/dimen_50"
+                android:layout_height="@dimen/dimen_50"
+                android:src="@drawable/fb_reg_icon"
+                />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="@dimen/dimen_50"
+                android:layout_height="@dimen/dimen_50"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:layout_toRightOf="@+id/ivFbLog"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/dimen_50"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_centerInParent="true"/>
+
+    <include layout="@layout/bottom_signin_bar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

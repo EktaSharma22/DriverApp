@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C71F1F</color>
+    <color name="colorPrimaryDark">#C71F1F</color>
+    <color name="colorAccent">#C71F1F</color>
+    <color name="black">#000000</color>
+    <color name="gold">#EA9F1B</color>
+    <color name="white">#ffffff</color>
+    <color name="silver">#B6B4B4</color>
+    <color name="peach">#FA725B</color>
+    <color name="theme_red">#F12929</color>
+    <color name="mustard_yellow">#F1D234</color>
+</resources>
